@@ -2,7 +2,7 @@
 
 **Andrew J. Temple, Kaitlyn A. O'Toole, Michael L. Berumen**
 
-Code and data accompanying the manuscript submitted to *<Journal>*.
+Code and data accompanying the manuscript submitted to *XXXX*.
 <!-- On publication, replace with: Code and data for <full citation>. https://doi.org/<DOI> -->
 
 ## Overview
@@ -83,17 +83,11 @@ install.packages("cmdstanr", repos = c("https://stan-dev.r-universe.dev", getOpt
 cmdstanr::install_cmdstan()
 ```
 
-Typical install time: <N–M> minutes (longer if `rstan`/`brms` compile from source, plus CmdStan).
-
 ## 3. Demo and reproduction
 
 All analyses run on the data provided in `data/`; no separate demo dataset is needed.
 
-From the repository root, run the scripts in order, each in a fresh R session:
-
-```bash
-for f in analysis/[0-9][0-9]_*.R; do Rscript "$f"; done
-```
+From the repository root, run the scripts in order, each in a fresh R session
 
 Alternatively, open the scripts in RStudio with the working directory set to the repository root and source them in order. Scripts 03 and 04 must run before 05 (which loads their saved models), and 03 before 04 (which reads the global effect sizes); 02 must run before 05.
 
@@ -103,7 +97,7 @@ Alternatively, open the scripts in RStudio with the working directory set to the
 |---|---|---|---|
 | `01_dag_development.R` | — (console output) | Table 3 | Implied conditional independencies, likelihood-ratio tests and partial R² |
 | `02_taxonomic_analysis.R` | `Taxa_Bias.pdf` | Fig. 2 | (a) taxonomic tree with research-effort rings, (b) species vs publication share by class, (c) expected publications per species by order |
-| `02_taxonomic_analysis.R` | `class_effects.csv`, `order_effects.csv`, `family_effects.csv`, `genus_effects.csv` | tables S1-S4 | Expected publications per species by taxonomic level |
+| `02_taxonomic_analysis.R` | `class_effects.csv`, `order_effects.csv`, `family_effects.csv`, `genus_effects.csv` | Tables S1-S4 | Expected publications per species by taxonomic level |
 | `02_taxonomic_analysis.R` | `m_taxa.rds` | — | Taxonomic model (used by 05) |
 | `03_causal_models_global.R` | `global_model_effectsize.csv`, `pairwise_biome.csv`, `pairwise_status.csv` | Tables S5-S7 | Global causal effects (IRRs) and pairwise contrasts |
 | `03_causal_models_global.R` | `global_model_evalues.csv` | Table S11 | E-values, global models |
@@ -146,8 +140,6 @@ To apply the analysis to other taxa or an updated dataset, replace `data/species
 - `n_draws_use` (posterior draws used for deficits) and `anchor_percentile` (continuous counterfactual anchor) in script 05.
 
 ## Data dictionary
-
-All files are comma-separated, UTF-8, with a single header row. Missing values are empty cells (read as `NA` by `read.csv()`).
 
 ### `data/species_data_final.csv`
 
@@ -203,7 +195,7 @@ Marine and terrestrial/freshwater species were gridded on separate layers aligne
 
 ## Citation
 
-<At publication: the full citation and DOI of the paper and of the archived code release.>
+*TBD*
 
 ## License
 
