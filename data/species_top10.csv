@@ -1,0 +1,61 @@
+class,sci_name,common_name,papers,rank
+Mammalia,Sus scrofa,   Wild Boar   ,59019,1
+Mammalia,Oryctolagus cuniculus,   European Rabbit   ,51231,2
+Mammalia,Macaca mulatta,   Rhesus Monkey   ,42283,3
+Mammalia,Chlorocebus aethiops,   Grivet   ,38772,4
+Mammalia,Mus musculus,   House Mouse   ,38745,5
+Mammalia,Chlorocebus djamdjamensis,   Bale Monkey   ,31707,6
+Mammalia,Rattus norvegicus,   Brown Rat   ,26006,7
+Mammalia,Macaca fascicularis,   Long-tailed Macaque   ,21671,8
+Mammalia,Pan troglodytes,   Chimpanzee   ,11909,9
+Mammalia,Cervus hanglu,   Tarim Red Deer   ,6651,10
+Aves,Gallus gallus,   Red Junglefowl   ,58938,1
+Aves,Meleagris gallopavo,   Wild Turkey   ,7693,2
+Aves,Anas platyrhynchos,   Mallard   ,4804,3
+Aves,Coturnix japonica,   Japanese Quail   ,4718,4
+Aves,Columba livia,   Rock Dove   ,3609,5
+Aves,Coturnix coturnix,   Common Quail   ,3040,6
+Aves,Taeniopygia guttata,   Timor Zebra Finch   ,2793,7
+Aves,Parus major,   Great Tit   ,2761,8
+Aves,Passer domesticus,   House Sparrow   ,2302,9
+Aves,Sturnus vulgaris,   Common Starling   ,2143,10
+Reptilia,Chelonia mydas,   Green Turtle   ,2839,1
+Reptilia,Caretta caretta,   Loggerhead Turtle   ,2566,2
+Reptilia,Trachemys ornata,   Ornate Slider   ,2048,3
+Reptilia,Trachemys scripta,   Pond Slider   ,2046,4
+Reptilia,Naja naja complex,   Indian Cobra*   ,2006,5
+Reptilia,Crotalus durissus,   Cascabel Rattlesnake   ,1128,6
+Reptilia,Anolis carolinensis,   Green Anole   ,1117,7
+Reptilia,Bothrops jararaca,   Jararaca   ,971,8
+Reptilia,Eretmochelys imbricata,   Hawksbill Turtle   ,968,9
+Reptilia,Chrysemys picta,   Painted Turtle   ,953,10
+Amphibia,Xenopus laevis complex,   African Clawed Frog*   ,35232,1
+Amphibia,Aquarana catesbeianus,   American Bullfrog   ,6568,2
+Amphibia,Lithobates pipiens,   Northern Leopard Frog   ,6557,3
+Amphibia,Rana asiatica,   Asian Frog   ,6504,4
+Amphibia,Rana ornativentris,   Montane Brown Frog*   ,6274,5
+Amphibia,Rana macrocnemis/temporaria complex,   European Common Frog*   ,6111,6
+Amphibia,Pelophylax ridibundus Rana esculenta complex,   Edible Frog*   ,5814,7
+Amphibia,Rhinella marina,   South American Cane Toad*   ,3294,8
+Amphibia,Oedipina complex,   Gamboa Worm Salamander   ,2326,9
+Amphibia,Bufo bufo,   Common Toad   ,2300,10
+Actinopterygii,Danio rerio,   Zebrafish   ,26901,1
+Actinopterygii,Oncorhynchus mykiss,   Rainbow Trout   ,25193,2
+Actinopterygii,Cyprinus rubrofuscus/carpio complex,   Eurasian Carp*   ,14874,3
+Actinopterygii,Salmo salar,   Atlantic salmon   ,14005,4
+Actinopterygii,Oreochromis niloticus,   Nile Tilapia   ,13541,5
+Actinopterygii,Gadus morhua,   Atlantic Cod   ,8976,6
+Actinopterygii,Salvelinus alpinus/murta,   Arctic Charr*   ,8614,7
+Actinopterygii,Carassius auratus,   Goldfish   ,7169,8
+Actinopterygii,Salmo trutta,   Brown Trout*   ,6920,9
+Actinopterygii,Sparus aurata,   Guilt-head Seabream   ,4781,10
+Chondrichthyes,Squalus suckleyi,   Spiny Dogfish*   ,1664,1
+Chondrichthyes,Tetronarce californica,   Pacific Torpedo Ray   ,1342,2
+Chondrichthyes,Scyliorhinus canicula,   Smallspotted Catshark   ,1010,3
+Chondrichthyes,Torpedo marmorata,   Marbled Torpedo Ray   ,909,4
+Chondrichthyes,Prionace glauca,   Blue Shark   ,738,5
+Chondrichthyes,Carcharodon carcharias,   White Shark   ,683,6
+Chondrichthyes,Sphyrna lewini,   Scalloped Hammerhead   ,468,7
+Chondrichthyes,Isurus oxyrinchus,   Shortfin Mako   ,455,8
+Chondrichthyes,Rhincodon typus,   Whale Shark   ,433,9
+Chondrichthyes,Galeocerdo cuvier,   Tiger Shark   ,399,10
